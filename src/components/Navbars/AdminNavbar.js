@@ -38,6 +38,7 @@ import {
   NavbarToggler,
   ModalHeader,
 } from "reactstrap";
+import Icons from "views/Icons";
 
 function AdminNavbar(props) {
   const [collapseOpen, setcollapseOpen] = React.useState(false);
@@ -81,6 +82,7 @@ function AdminNavbar(props) {
                 toggled: props.sidebarOpened,
               })}
             >
+              
               <NavbarToggler onClick={props.toggleSidebar}>
                 <span className="navbar-toggler-bar bar1" />
                 <span className="navbar-toggler-bar bar2" />
